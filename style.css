@@ -1,0 +1,411 @@
+body{
+  background-color: #f9f0f0;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* Navbar */
+.navbar{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  float: left;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(37, 36, 36);
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 18px 18px;
+  border-left: 1px solid rgb(176, 175, 175);
+  font-family:  Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+}
+.navbar li p{
+  color: white;
+  padding: 18px 18px;
+  font-family: cursive;
+}
+.logo{
+width: 250px;
+text-align:end;
+height: 30px;
+margin-top:5px;
+}
+.navbar li a:hover {
+  background-color:black;
+}
+/* baner css */
+.baner{
+    height: 500px;
+    background-image: url('./images/b.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: aliceblue;
+}
+.bg-text {
+    width:35%;
+    margin: auto;
+    text-align: center;
+  }
+  .bg-text p{
+    font-size: 18px;
+  }
+  .btn{
+    margin-top: 30px; 
+    height: 50px;
+     font-size: large;
+     border: none;
+     padding:0px 39px 0px 39px;
+     color: aliceblue;
+  }
+  /* card */
+
+  .card{
+    height: 500px;
+    width: 100%;
+    padding: 40px 40px ;
+    box-sizing: border-box;
+
+  }
+
+  .card1
+  {
+    height: 350px;
+    width: 30%;
+    padding: 16px;
+    margin: 1.66%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px dotted rgb(185, 185, 185);
+    float: left;
+  }
+  .card-img{
+    margin-top: 15px;
+    width: 25%;
+    height: 60px;
+    background-color: aqua;
+    float: left;
+  }
+  .card-contant{
+    margin-top: 15px;
+    width: 70%;
+    padding: 5px;
+    height: 60px;
+    float: left;
+  }
+  .card-contant h4,p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .hr{
+    width: 100%;
+    padding: 0px 18px;
+    text-align: center;
+    margin-top: 9px;
+    box-sizing: border-box;
+    float: left;
+  }
+  .hr hr{
+    height: 1px;
+    background-color:lightgray;
+    border: none;
+  }
+ 
+  .card2{
+    width: 33.33%;
+    height: 90px;
+    /* margin-left: 10px; */
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+  }
+  .card2-img{
+    width: 20%;
+    height: 75px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    float: left;
+  }
+  .c2-img{
+    border-radius: 50%;
+  }
+  .card2-contant{
+    width: 70%;
+    padding: 0px 15px;
+    height: 60px;
+    box-sizing: border-box;
+    float: left;
+  }
+  .card2-contant h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(58, 58, 58);
+    font-size: 15px;
+    font-weight: 550;
+    }
+  .bottom-img{
+    width:18%;
+    height: 50px;
+    padding: 15px;
+    float: left;
+  }
+  .bottom-img1{
+    width:10%;
+    height: 60px;
+    padding: 15px;
+    float: left;
+  }
+  /* footer */
+  .footer{
+    height: 200px;
+    width: 90%;
+    background-color: black;
+    padding: 3% 5%;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    float: left;
+  }
+  .fl
+  {
+    width: 50%;
+    float: left;
+  }
+  .fr{
+    width: 50%;
+    float: left;
+  }
+  .l1{
+    width: 25%;
+float: left; 
+}
+.l1 ul{
+    list-style: none;
+    color: gray;
+}
+.l1 ul li{
+    margin-top: 12px;
+}
+.fr span{
+  padding: 0px 15px;
+}
+.fr h3{
+  text-align: right;
+}
+.fr h4{
+  font-weight:bold;
+    text-align:right;
+   margin-top: 100px;
+}
+
+
+@media screen and (max-width:668px) {
+  .logo{
+    width: 20%;
+    text-align:center;
+    height: 50px;
+    margin-top:5px;
+    }
+    .navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      font-size: 15px;
+      /* padding: 18px 18px; */
+      border-left: 1px solid rgb(176, 175, 175);
+      font-family:  Georgia, Times, 'Times New Roman', serif;
+      text-decoration: none;
+    }
+    .navbar li p{
+      display: none;
+    }
+    .bg-text {
+      width:60%;
+      margin: auto;
+      text-align: center;
+    }
+
+    
+  .card{
+    height: 500px;
+    width: 100%;
+    padding: 40px 40px ;
+    box-sizing: border-box;
+
+  }
+
+  .card1
+  {
+    height: 350px;
+    width: 100%;
+    padding: 16px;
+    margin: 1.66%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px dotted rgb(185, 185, 185);
+    float: left;
+  }
+  
+  
+  .card2{
+    width: 100%;
+    height: 90px;
+    /* margin-left: 10px; */
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+  }
+  .bottom-img{
+    width:30%;
+    margin-left: 10px;
+    height: 30px;
+    padding: 15px;
+    float: left;
+  }
+  .footer{
+    height: 300px;
+    width: 90%;
+    background-color: black;
+    padding: 3% 5%;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    float: left;
+  }
+  .fl
+  {
+    width: 100%;
+    float: left;
+  } 
+  .fr{
+    width: 100%;
+    float: left;
+  }
+  .l1 h3{
+    font-size: 15px;
+  }
+  .fr span{
+    padding: 0px 15px;
+  }
+  .fr h3{
+    margin-top: 20px;
+    text-align: left;
+  }
+  .fr h4{
+    margin-top: 10px;
+    font-weight:bold;
+      text-align:right;
+  }
+
+}
+
+@media only screen and (max-width: 900px) and (min-width: 669px)  {
+    .logo{
+    width: 20%;
+    text-align:center;
+    height: 50px;
+    margin-top:5px;
+    }
+    .navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      font-size: 15px;
+      /* padding: 18px 18px; */
+      border-left: 1px solid rgb(176, 175, 175);
+      font-family:  Georgia, Times, 'Times New Roman', serif;
+      text-decoration: none;
+    }
+   
+    .bg-text {
+      width:60%;
+      margin: auto;
+      text-align: center;
+    }
+
+    
+  .card{
+    height: 500px;
+    width: 100%;
+    padding: 40px 40px ;
+    box-sizing: border-box;
+
+  }
+
+  .card1
+  {
+    height: 350px;
+    width: 46.5%;
+    padding: 16px;
+    margin: 1.66%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px dotted rgb(185, 185, 185);
+    float: left;
+  }
+  
+  
+  .card2{
+    width: 50%;
+    height: 90px;
+    /* margin-left: 10px; */
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+  }
+  .bottom-img{
+    width:15%;
+    margin-left: 10px;
+    height: 30px;
+    padding: 15px;
+    float: left;
+  }
+  .footer{
+    height: 200px;
+    width: 90%;
+    background-color: black;
+    padding: 3% 5%;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    float: left;
+  }
+  .fl
+  {
+    width: 65%;
+    float: left;
+  } 
+  .l1 h3{
+    font-size: 17px;
+  }
+  .fr{
+    width: 35%;
+    float: left;
+  }
+  
+  .fr span{
+    padding: 0px 15px;
+  }
+  .fr h3{
+    margin-top: 20px;
+    text-align: right;
+  }
+  .fr h4{
+    margin-top: 100px;
+    font-weight:bold;
+      text-align:right;
+  }
+}
